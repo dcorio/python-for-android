@@ -1,6 +1,6 @@
 #!/bin/bash
 VERSION_erppeek=1.4.5
-DEPS_erppeek=(python erppeek unittest2)
+DEPS_erppeek=(python)
 URL_erppeek=http://pypi.python.org/packages/source/E/ERPpeek/ERPpeek-1.4.5.tar.gz
 MD5_erppeek=bec4da87f1de66c2621b00e2f760cb74
 BUILD_erppeek=$BUILD_PATH/erppeek/$(get_directory $URL_erppeek)
